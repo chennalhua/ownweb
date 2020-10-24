@@ -1,0 +1,231 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-block {
+  background-color: #000;
+  color: #fff;
+}
+
+.py-64 {
+  padding: 64px 0;
+}
+
+header {
+  background: url("../img/banner.png") no-repeat center;
+  background-size: cover;
+  padding: 350px 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+header h1 {
+  font-size: 80px;
+  margin-bottom: 32px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+header .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 48px;
+}
+
+main h2 {
+  font-size: 64px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+main .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .about img {
+  margin-bottom: 24px;
+}
+
+main .about li {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+main .about .resume {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+
+main .about .experience {
+  padding: 24px 0;
+}
+
+main .about .experience li::before {
+  content: "●";
+  color: #891818;
+  margin-right: 16px;
+}
+
+main .brand p {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 24px;
+}
+
+main .brand p:nth-child(odd) {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main .brand .brand-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .brand .brand-photo li {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main .brand .brand-photo li:nth-child(2), main .brand .brand-photo li:nth-child(3) {
+  width: 50%;
+}
+
+main .work .title-info {
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+main .work .work-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .work .work-photo li {
+  width: 33.3%;
+  margin-bottom: 56px;
+}
+
+main .work .work-photo li:nth-child(4), main .work .work-photo li:nth-child(5) {
+  width: 50%;
+}
+
+main .work .work-photo p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+main .contact li {
+  text-align: center;
+}
+
+main .contact a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
+  line-height: 36px;
+}
+
+main .contact a:hover {
+  color: #891818;
+}
+/*# sourceMappingURL=all.css.map */
